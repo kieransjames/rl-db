@@ -1,0 +1,725 @@
+{
+
+    "Majors":{
+        "Fall":{
+            "Main Event":{
+                "start":"2022-12-08",
+                "end":"2022-12-11"
+            }
+        },
+        "Winter":{
+            "Main Event":{
+                "start":"",
+                "end":""
+            }
+        },
+        "Spring":{
+            "Main Event":{
+                "start":"",
+                "end":""
+            }
+        },
+        "Worlds":{
+            "Main Event":{
+                "start":"",
+                "end":""
+            }
+        }
+
+    },
+
+    "APAC":{
+        "Fall":{
+            "Open":{
+                "Qualifier":{
+                    "start":"2022-10-01",
+                    "end":"2022-10-02"
+                },
+                "Main Event":{
+                    "start":"2022-10-08",
+                    "end":"2022-10-09"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-15",
+                    "end":"2022-10-16"
+                },
+                "Main Event":{
+                    "start":"2022-10-22",
+                    "end":"2022-10-23"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"2022-11-05",
+                    "end":"2022-11-06"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+               "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "EU":{
+        "Fall":{
+            "Open":{
+                "Qualifier":{
+                    "start":"2022-10-07",
+                    "end":"2022-10-09"
+                },
+                "Main Event":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-16"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-21",
+                    "end":"2022-10-23"
+                },
+                "Main Event":{
+                    "start":"2022-10-28",
+                    "end":"2022-10-30"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"2022-11-03",
+                    "end":"2022-11-03"
+                },
+                "Main Event":{
+                    "start":"2022-11-11",
+                    "end":"2022-11-13"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "MENA":{
+        "Fall":{
+            "Open":{
+                "Qualifier":{
+                    "start":"2022-09-30",
+                    "end":"2022-10-01"
+                },
+                "Main Event":{
+                    "start":"2022-10-06",
+                    "end":"2022-10-08"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-15"
+                },
+                "Main Event":{
+                    "start":"2022-10-20",
+                    "end":"2022-10-22"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"2022-10-29",
+                    "end":"2022-10-29"
+                },
+                "Main Event":{
+                    "start":"2022-11-03",
+                    "end":"2022-11-05"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "NA":{
+        "Fall":{
+            "Open":{
+                "Qualifier":{
+                    "start":"2022-09-30",
+                    "end":"2022-10-03"
+                },
+                "Main Event":{
+                    "start":"2022-10-07",
+                    "end":"2022-10-09"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-17"
+                },
+                "Main Event":{
+                    "start":"2022-10-21",
+                    "end":"2022-10-23"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"2022-10-26",
+                    "end":"2022-10-26"
+                },
+                "Main Event":{
+                    "start":"2022-11-04",
+                    "end":"2022-11-06"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "OCE":{
+        "Fall":{
+            "Open":{
+                "Qualifier":{
+                    "start":"2022-10-01",
+                    "end":"2022-10-02"
+                },
+                "Main Event":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-16"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-22",
+                    "end":"2022-10-23"
+                },
+                "Main Event":{
+                    "start":"2022-10-28",
+                    "end":"2022-10-30"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"2022-11-02",
+                    "end":"2022-11-02"
+                },
+                "Main Event":{
+                    "start":"2022-11-11",
+                    "end":"2022-11-13"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "SAM":{
+        "Fall":{
+            "Open":{        
+                "Qualifier":{
+                    "start":"2022-10-08",
+                    "end":"2022-10-09"
+                },
+                "Main Event":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-16"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-22",
+                    "end":"2022-10-23"
+                },
+                "Main Event":{
+                    "start":"2022-10-28",
+                    "end":"2022-10-30"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"2022-11-04",
+                    "end":"2022-11-06"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    },
+
+    "SSA":{
+        "Fall":{
+            "Open":{        
+                "Qualifier":{
+                    "start":"2022-10-08",
+                    "end":"2022-10-09"
+                },
+                "Main Event":{
+                    "start":"2022-10-14",
+                    "end":"2022-10-16"
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"2022-10-22",
+                    "end":"2022-10-23"
+                },
+                "Main Event":{
+                    "start":"2022-10-28",
+                    "end":"2022-10-30"
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"2022-11-05",
+                    "end":"2022-11-05"
+                },
+                "Main Event":{
+                    "start":"2022-11-11",
+                    "end":"2022-11-13"
+                }
+            }
+        },
+        "Winter":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        },
+        "Spring":{
+            "Open":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Cup":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            },
+            "Invitational":{
+                "Qualifier":{
+                    "start":"",
+                    "end":""
+                },
+                "Main Event":{
+                    "start":"",
+                    "end":""
+                }
+            }
+        }
+    }
+
+    
+}

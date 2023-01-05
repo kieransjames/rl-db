@@ -36,8 +36,8 @@ import json
 from st_aggrid import AgGrid, GridOptionsBuilder
 
 import os 
-if "/rl_db_app/pages" not in os.getcwd():
-    os.chdir('./rl_db_app/pages')
+if "pages" not in os.getcwd():
+    os.chdir('./pages')
 
 with open('Event_dic.txt') as f:
     data = f.read()
@@ -246,11 +246,11 @@ teams = sorted([str(x) for x in player_meta_register['Team Name'].unique()])
 
 def aggregate_df(df,columns,per_game=True):
     temp1 = df.copy(deep=True)
-    counts = temp1.groupby(["Player Name","Player Id"],as_index=False)["Player Name"].count().rename(columns={"Player Name":"GP"})
+    counts = temp1.groupby(["Player Name","Player Id","Team Name"],as_index=False)["Player Name"].count().rename(columns={"Player Name":"GP"})
     if per_game:
-        temp2 = temp1.groupby(["Player Name","Player Id"],as_index=False)[columns].mean().drop(["Player Id"],axis=1)
+        temp2 = temp1.groupby(["Player Name","Player Id","Team Name"],as_index=False)[columns].mean().drop(["Player Id","Team Name"],axis=1)
     else:
-        temp2 = temp1.groupby(["Player Name","Player Id"],as_index=False)[columns].sum().drop(["Player Id"],axis=1)        
+        temp2 = temp1.groupby(["Player Name","Player Id","Team Name"],as_index=False)[columns].sum().drop(["Player Id","Team Name"],axis=1)        
     temp3 = pd.concat([counts,temp2],axis=1)
     new_cols = list(temp3.columns)
     temp4 = temp3[["Player Name"]+[x for x in new_cols if x!='Player Name']]
@@ -260,7 +260,7 @@ def aggregate_df(df,columns,per_game=True):
 
 @st.cache(show_spinner=True)
 def default_table():
-    display_df = player_meta_register.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform","Player Id",
+    display_df = player_meta_register.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform",
                                                                                                        "game_date","team_region","opponent_region","Split",
                                                                                                        "Event Type","Event Sub-type","Player Name_y"],axis=1).\
                                                                                                     rename(columns={"Player Name_x":"Player Name"})
@@ -441,11 +441,10 @@ with st.form("my_form"):
             for stats_cat in Stats_select:
                 temp_df = temp_df.merge(stats_cats_dic[stats_cat],on=["Player Id","Game Id"],how="left").rename(columns={"Player Name_x":"Player Name",
                                                                                                                          "Platform_x":"Platform"})
-            temp_df = temp_df.drop(["Game Id","Player Id","opponent_team_name","color","Platform","game_date","team_region","opponent_region","Split","Event Type","Event Sub-type","Player Name_y"],axis=1)
+            temp_df = temp_df.drop(["Game Id","opponent_team_name","color","Platform","game_date","team_region","opponent_region","Split","Event Type","Event Sub-type","Player Name_y"],axis=1)
 
-        
         display_df = aggregate_df(temp_df,list(temp_df.columns),per_game_bool)
-
+        
         if per_game_bool:
             display_df = display_df.apply(custom_round_1)
         else:
@@ -458,8 +457,13 @@ with st.form("my_form"):
         display_df = display_df.apply(custom_round_1)
 
 
+
+display_df = display_df[[x for x in list(display_df.columns) if x!="Player Id"]]
+
+
 from st_aggrid import AgGrid, GridOptionsBuilder
 gb = GridOptionsBuilder.from_dataframe(display_df)
+
 
 base_width = 67
 width_factor = 5

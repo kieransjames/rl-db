@@ -1,3 +1,5 @@
+# much of the logic of this program is the same as 1_Team_Stats.py
+
 import streamlit as st
 st.set_page_config(layout="wide",
                    page_title="RL-DB: Player Stats",
@@ -14,7 +16,6 @@ css = r'''
         [data-testid="stForm"] {border: 0px}
     </style>
 '''
-
 st.markdown(css, unsafe_allow_html=True)
 
 
@@ -25,6 +26,7 @@ import mysql.connector
 from mysql.connector import Error
 import datetime
 import json
+from st_aggrid import AgGrid, GridOptionsBuilder
 
 import os 
 if "/rl_db_app/pages" not in os.getcwd():
@@ -232,6 +234,7 @@ player_demo_stats = dfs['player_demo_stats']
 
 
 # list of players and teams
+# we need players and teams, because in the final table we display players and teams together
 players = sorted(list(player_meta_register['Player Name'].unique()))
 teams = sorted([str(x) for x in player_meta_register['Team Name'].unique()])
 

@@ -241,7 +241,6 @@ player_demo_stats = dfs['player_demo_stats']
 
 
 # list of players and teams
-# we need players and teams, because in the final table we display players and teams together
 players = sorted(list(player_meta_register['Player Name'].unique()))
 teams = sorted([str(x) for x in player_meta_register['Team Name'].unique()])
 
@@ -434,7 +433,7 @@ with st.form("my_form"):
 
 # merge with requested stat categories
         if len(Stats_select)==0:
-            temp_df = temp_df.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform","Team Name",
+            temp_df = temp_df.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform",
                                                                                                        "game_date","team_region","opponent_region","Split",
                                                                                                        "Event Type","Event Sub-type","Player Name_y"],axis=1).\
                                                                                                     rename(columns={"Player Name_x":"Player Name"})
@@ -442,7 +441,7 @@ with st.form("my_form"):
             for stats_cat in Stats_select:
                 temp_df = temp_df.merge(stats_cats_dic[stats_cat],on=["Player Id","Game Id"],how="left").rename(columns={"Player Name_x":"Player Name",
                                                                                                                          "Platform_x":"Platform"})
-            temp_df = temp_df.drop(["Game Id","opponent_team_name","color","Platform","Team Name","game_date","team_region","opponent_region","Split","Event Type","Event Sub-type","Player Name_y"],axis=1)
+            temp_df = temp_df.drop(["Game Id","Player Id","opponent_team_name","color","Platform","game_date","team_region","opponent_region","Split","Event Type","Event Sub-type","Player Name_y"],axis=1)
 
         
         display_df = aggregate_df(temp_df,list(temp_df.columns),per_game_bool)

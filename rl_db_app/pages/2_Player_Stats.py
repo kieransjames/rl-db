@@ -458,10 +458,6 @@ with st.form("my_form"):
         display_df = display_df.apply(custom_round_1)
 
 
-
-display_df = display_df[[x for x in list(display_df.columns) if x != "Player Id"]+["Player Id"]]
-
-
 from st_aggrid import AgGrid, GridOptionsBuilder
 gb = GridOptionsBuilder.from_dataframe(display_df)
 

@@ -260,7 +260,7 @@ def aggregate_df(df,columns,per_game=True):
 
 @st.cache(show_spinner=True)
 def default_table():
-    display_df = player_meta_register.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform","Team Name",
+    display_df = player_meta_register.merge(player_base_stats,on=["Player Id","Game Id"],how="left").drop(["Game Id","opponent_team_name","color","Platform","Player Id",
                                                                                                        "game_date","team_region","opponent_region","Split",
                                                                                                        "Event Type","Event Sub-type","Player Name_y"],axis=1).\
                                                                                                     rename(columns={"Player Name_x":"Player Name"})

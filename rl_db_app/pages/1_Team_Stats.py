@@ -10,6 +10,14 @@ st.set_page_config(layout="wide",
                     "About":None
                    })
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+
 # remove border around submit container
 css = r'''
     <style>

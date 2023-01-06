@@ -379,7 +379,7 @@ with st.form("my_form"):
     max_GP = int(default_df['GP'].max())
 
     min_gp = st.slider(
-        "Minimum Games Played:",
+        "Games Played:",
         0,max_GP, (0,max_GP)
         )
 

@@ -67,7 +67,7 @@ You can check out the backend for the site on my [github](https://github.com/kie
 
 st.text("")
 st.text("")
-st.header("Want to get in touch")
+st.header("Want to get in touch?")
 st.write("""
 
 Have a question about the site? Want to suggest a feature? Notice a problem with the data? Reach out to me at contact@rl-db.com.

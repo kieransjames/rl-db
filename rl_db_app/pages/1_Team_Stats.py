@@ -438,7 +438,7 @@ with st.form("my_form"):
 
 #   filter by games played
     min_gp = st.slider(
-        "Minimum Games Played:",
+        "Games Played:",
         0,max_GP, (0,max_GP)
         )
 
